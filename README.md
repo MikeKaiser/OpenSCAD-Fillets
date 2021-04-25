@@ -18,6 +18,8 @@ If we vary the percentage-expansions using the equation of a circle, we can get 
 From the images below, you can clearly see the low resolution steps I've used in the script. This value means the object is easy to render but is only good for something like FDM based additive manufacturing where the layers will be visible anyway.
 If you're looking for super smooth prints you can, of course, decrease the value of the step parameter, but this will seriously impact the performance of OpenSCAD.
 
+The GardenClipExample.scad file shows the function in action on a part now in use, using an anisotropic scaling vector to compensate for the objects being long and thin and using a custom pivot position to compensate for the object not being centered around the origin.
+
 ![alt text](images/non-fillet-1.PNG "non-fillet")
 ![alt text](images/fillet-1.PNG "fillet")
 ![alt text](images/non-fillet-2.PNG "non-fillet")
