@@ -18,7 +18,7 @@ If we vary the percentage-expansions using the equation of a circle, we can get 
 From the images below, you can see the low resolution steps I've selected in the script. This value means the object is easy to render but it probably only good for FDM based additive manufacturing where the layers will probably be visible anyway.
 If you're looking for supper smooth prints you can, of course, decrease the size of the step parameter, but this will seriously impact the performance of OpenSCAD.
 
-![alt text](images/non-fillet-1.png "non-fillet")
-![alt text](images/fillet-1.png "fillet")
-![alt text](images/non-fillet-2.png "non-fillet")
-![alt text](images/fillet-2.png "fillet")
+![alt text](images/non-fillet-1.PNG "non-fillet")
+![alt text](images/fillet-1.PNG "fillet")
+![alt text](images/non-fillet-2.PNG "non-fillet")
+![alt text](images/fillet-2.PNG "fillet")
